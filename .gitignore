@@ -2,5 +2,9 @@
 !/build/.gitkeep
 /dev
 /node_modules
+/schema/compile/*
+!/schema/compile/.gitkeep
+/schema/download/*
+!/schema/download/.gitkeep
 
 wrangler.toml

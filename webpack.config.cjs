@@ -1,4 +1,4 @@
-const path = require('path')
+const Path = require('path')
 
 module.exports = {
   entry: './src/index.js',
@@ -12,7 +12,7 @@ module.exports = {
     minimize: true,
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: Path.resolve(__dirname, 'build'),
     filename: 'worker.mjs',
     libraryTarget: 'module',
     sourceMapFilename: 'worker.mjs.map',
