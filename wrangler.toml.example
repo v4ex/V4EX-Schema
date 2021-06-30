@@ -1,0 +1,17 @@
+name = "v4ex-schema"
+# Credentials
+account_id = ""
+zone_id = ""
+# type = "javascript" is required to use the `[build]` section
+type = "javascript"
+workers_dev = true
+route = ""
+
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+# The "modules" upload format is required for all projects that export a Durable Object class.
+dir="build"
+format = "modules"
+main = "./worker.mjs"
