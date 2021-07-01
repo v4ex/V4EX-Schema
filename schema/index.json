@@ -1,4 +1,4 @@
 {
-  "mining-task": "https://schema.v4ex.com/mining-task",
-  "mining-task-work": "https://schema.v4ex.com/mining-task-work"
+  "mining-task": "https://coin.v4ex.com/schema/mining-task",
+  "mining-task-work": "https://coin.v4ex.com/schema/mining-task-work"
 }
